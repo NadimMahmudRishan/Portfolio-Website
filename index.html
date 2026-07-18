@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nadim Mahmud | Penetration Tester &amp; Ethical Hacker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<!-- ===== NAVBAR ===== -->
+<header class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="#home" class="logo"><span class="logo-badge">N</span>adim<span class="dot">.</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#whoami" class="nav-link">About</a>
+      <a href="#services" class="nav-link">Services</a>
+      <a href="#experience" class="nav-link">Resume</a>
+      <a href="#fame" class="nav-link">Hall of Fame</a>
+      <a href="#certifications" class="nav-link">Certifications</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="home">
+  <div class="hero-bg">
+    <span class="orb orb-1"></span>
+    <span class="orb orb-2"></span>
+    <div class="grid-overlay"></div>
+  </div>
+
+  <div class="container hero-grid">
+    <div class="hero-text reveal">
+      <p class="eyebrow">Assalamualaikum <span class="wave">👋</span></p>
+      <h1 class="hero-name">Nadim Mahmud</h1>
+      <h2 class="hero-role">And I'm a <span class="typed-text" id="typedRole"></span><span class="cursor-blink">|</span></h2>
+      <p class="hero-bio">
+        I work on the offensive side of cybersecurity, spending my time thinking like an attacker so
+        organizations don't have to find out the hard way. My focus is penetration testing and bug bounty
+        hunting, backed by a solid grip on vulnerability assessment, threat modeling, and red-team tactics.
+        From web apps to internal networks, I dig into how systems break, and just as importantly, how to
+        harden them before someone else finds the gap. I care about continuous learning, disciplined
+        methodology, and leaving every environment more resilient than I found it.
+      </p>
+      <div class="hero-socials">
+        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+      <a href="Nadim_Mahmud_CV.pdf" class="btn btn-primary" id="downloadCv" download="Nadim_Mahmud_CV.pdf">
+        <i class="fa-solid fa-download"></i> Download CV
+      </a>
+    </div>
+
+    <div class="hero-photo reveal">
+      <div class="photo-ring"></div>
+      <div class="photo-ring ring-2"></div>
+      <div class="photo-frame">
+        <img src="https://i.pravatar.cc/500?img=13" alt="Nadim Mahmud">
+      </div>
+      <span class="badge-float badge-1"><i class="fa-solid fa-shield-halved"></i></span>
+      <span class="badge-float badge-2"><i class="fa-solid fa-terminal"></i></span>
+    </div>
+  </div>
+  <a href="#whoami" class="scroll-cue"><span></span>Scroll</a>
+</section>
+
+<!-- ===== WHOAMI ===== -->
+<section class="whoami" id="whoami">
+  <div class="container whoami-grid">
+    <div class="whoami-photo reveal">
+      <div class="whoami-frame">
+        <img src="https://i.pravatar.cc/300?img=13" alt="Nadim Mahmud">
+      </div>
+    </div>
+    <div class="whoami-text reveal">
+      <h3 class="section-tag"><span class="mono-dollar">$</span> whoami</h3>
+      <h4 class="whoami-title">Penetration Tester</h4>
+      <p>
+        A penetration tester thinks like a hacker &mdash; but works for good. My job is to find and report
+        security weaknesses before someone with worse intentions does, then help teams close the gap for good.
+      </p>
+      <a href="#experience" class="btn btn-outline">Read More</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SERVICES ===== -->
+<section class="services" id="services">
+  <div class="container">
+    <h2 class="section-title reveal">My <span class="accent">Services</span></h2>
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <div class="service-icon"><i class="fa-solid fa-box-open"></i></div>
+        <h5>Penetration Testing</h5>
+        <p>Simulate real-world cyberattacks to identify vulnerabilities in your applications, networks, and
+          systems. I provide detailed assessments and actionable remediation steps to strengthen your security
+          posture.</p>
+        <a href="#contact" class="btn btn-outline btn-sm">Read More</a>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon"><i class="fa-solid fa-user-secret"></i></div>
+        <h5>Red Teaming</h5>
+        <p>Conduct advanced, multi-layered attack simulations to test your organization's detection and response
+          capabilities. This service evaluates how well your defenses hold up against targeted and persistent
+          threats.</p>
+        <a href="#contact" class="btn btn-outline btn-sm">Read More</a>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon"><i class="fa-solid fa-building-shield"></i></div>
+        <h5>Cyber Security Analyst</h5>
+        <p>Monitor, analyze, and respond to security incidents to protect your digital assets. I deliver
+          continuous threat assessment, SIEM analysis, and incident handling to ensure robust organizational
+          security.</p>
+        <a href="#contact" class="btn btn-outline btn-sm">Read More</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WHY HIRE ME / EXPERIENCE ===== -->
+<section class="why-exp" id="experience">
+  <div class="container why-exp-grid">
+    <div class="why-col reveal">
+      <h2 class="section-title left">Why <span class="accent">Hire Me?</span></h2>
+      <p>
+        I bridge offensive and defensive security to uncover threats before attackers do. With hands-on
+        expertise and industry-standard tools, I deliver practical, high-impact solutions that keep your
+        systems secure and resilient.
+      </p>
+      <div class="tabs">
+        <button class="tab-btn active" data-tab="experience">Experience</button>
+        <button class="tab-btn" data-tab="education">Education</button>
+        <button class="tab-btn" data-tab="skills">Skills</button>
+      </div>
+    </div>
+
+    <div class="exp-col reveal">
+      <h3 class="section-tag">My <span class="accent">Experience</span></h3>
+      <p class="section-sub">Real world Experience</p>
+
+      <div class="tab-panel active" id="panel-experience">
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="timeline-date">April 2025 &ndash; June 2025</span>
+            <h5>Jr. Penetration Tester (Internship)</h5>
+            <p><i class="fa-solid fa-caret-right"></i> Byte Capsule</p>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-date">February 2025 &ndash; March 2025</span>
+            <h5>Cyber Security (Internship)</h5>
+            <p><i class="fa-solid fa-caret-right"></i> HackSecure</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-panel" id="panel-education">
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="timeline-date">2023 &ndash; Present</span>
+            <h5>B.Sc. in Computer Science &amp; Engineering</h5>
+            <p><i class="fa-solid fa-caret-right"></i> Focused on network security &amp; systems</p>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-date">2021 &ndash; 2023</span>
+            <h5>Higher Secondary Certificate (Science)</h5>
+            <p><i class="fa-solid fa-caret-right"></i> Science Group</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-panel" id="panel-skills">
+        <div class="skills-list">
+          <div class="skill-bar"><span>Penetration Testing</span><div class="bar"><i style="--w:92%"></i></div></div>
+          <div class="skill-bar"><span>Red Teaming</span><div class="bar"><i style="--w:85%"></i></div></div>
+          <div class="skill-bar"><span>Network Security</span><div class="bar"><i style="--w:88%"></i></div></div>
+          <div class="skill-bar"><span>Web App Security</span><div class="bar"><i style="--w:90%"></i></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== HALL OF FAME ===== -->
+<section class="fame" id="fame">
+  <div class="container">
+    <h2 class="section-title reveal">Hall of <span class="accent">Fame</span></h2>
+    <div class="fame-grid">
+      <div class="fame-card reveal">
+        <div class="fame-top"><span class="fame-icon"><i class="fa-solid fa-shield-cat"></i></span><div><h5>DHL</h5><small>Hall of Fame</small></div></div>
+        <p>Recognized for identifying and responsibly disclosing an HTML injection vulnerability.</p>
+        <span class="fame-year">2025</span>
+      </div>
+      <div class="fame-card reveal">
+        <div class="fame-top"><span class="fame-icon"><i class="fa-solid fa-award"></i></span><div><h5>Magnetrix</h5><small>Hall of Fame</small></div></div>
+        <p>Found a Broken Access Control vulnerability affecting core account permissions.</p>
+        <span class="fame-year">2025</span>
+      </div>
+      <div class="fame-card reveal">
+        <div class="fame-top"><span class="fame-icon"><i class="fa-solid fa-trophy"></i></span><div><h5>Pendo</h5><small>Security Researcher</small></div></div>
+        <p>Discovered a broken function level authorization (BFLA) issue on the Pendo product.</p>
+        <span class="fame-year">2024</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CERTIFICATIONS ===== -->
+<section class="certs" id="certifications">
+  <div class="container">
+    <h2 class="section-title reveal"><span class="accent">Certifications</span></h2>
+    <div class="certs-grid" id="certsGrid"></div>
+  </div>
+</section>
+
+<!-- ===== PROJECTS ===== -->
+<section class="projects" id="projects">
+  <div class="container">
+    <h2 class="section-title reveal">Latest <span class="accent">Projects</span></h2>
+    <div class="projects-grid">
+
+      <div class="project-card reveal">
+        <div class="browser-mock">
+          <div class="browser-bar"><span></span><span></span><span></span></div>
+          <div class="browser-body cyber-mock">
+            <div class="mock-row"><i class="fa-solid fa-triangle-exclamation"></i><div class="mock-line"></div></div>
+            <div class="mock-icons">
+              <i class="fa-solid fa-bug"></i><i class="fa-solid fa-lock"></i><i class="fa-solid fa-key"></i>
+              <i class="fa-solid fa-bug"></i><i class="fa-solid fa-shield"></i><i class="fa-solid fa-lock"></i>
+            </div>
+            <div class="mock-bars"><i></i><i></i><i></i><i></i></div>
+          </div>
+        </div>
+        <h5>CyberSafe AI Assistant</h5>
+        <p>A tool that scans and flags outdated Linux and Windows network configurations, helping teams spot
+          risky defaults before attackers do.</p>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="browser-mock">
+          <div class="browser-bar"><span></span><span></span><span></span></div>
+          <div class="browser-body dash-mock">
+            <div class="dash-title">🛡️ Security Management Dashboard</div>
+            <div class="dash-grid">
+              <div class="dash-box"></div><div class="dash-box"></div>
+              <div class="dash-box tall"></div><div class="dash-box"></div>
+            </div>
+          </div>
+        </div>
+        <h5>Security Management Database</h5>
+        <p>A centralized dashboard for tracking assets, vulnerabilities, and remediation status across an
+          organization's infrastructure.</p>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="browser-mock">
+          <div class="browser-bar"><span></span><span></span><span></span></div>
+          <div class="browser-body term-mock">
+            <p>root@nadim:~# Solve Linear Equations</p>
+            <p>root@nadim:~# Solve Differential Equations</p>
+            <p>root@nadim:~# Find Matrix Inverse</p>
+            <p>root@nadim:~# Gauss Elimination</p>
+            <p>root@nadim:~# LU Factorization</p>
+            <p class="blink">root@nadim:~# _</p>
+          </div>
+        </div>
+        <h5>CLI Numerical Toolkit</h5>
+        <p>A lightweight terminal application implementing common numerical methods for solving systems of
+          equations, built to sharpen my scripting fundamentals.</p>
+      </div>
+    </div>
+
+    <div class="dev-card reveal">
+      <img src="https://i.pravatar.cc/120?img=13" alt="Nadim Mahmud">
+      <div>
+        <h6>Nadim Mahmud</h6>
+        <span>Penetration Tester &amp; Ethical Hacker</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section class="contact" id="contact">
+  <div class="container">
+    <h2 class="section-title reveal">Contact <span class="accent">Me</span></h2>
+    <form class="contact-form reveal" id="contactForm">
+      <div class="form-row">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+      </div>
+      <input type="text" placeholder="Subject" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn btn-primary">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+      <p class="form-status" id="formStatus"></p>
+    </form>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <p>Copyright © 2026 by Nadim Mahmud | All Rights Reserved.</p>
+    <div class="hero-socials">
+      <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+      <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+  </div>
+</footer>
+
+<button id="toTop" class="to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script src="script.js"></script>
+</body>
+</html>
